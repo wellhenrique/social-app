@@ -5,9 +5,9 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 
-import { Button } from '../../components/Forms/Button';
-import { InputForm } from '../../components/Forms/InputForm';
-import theme from '../../theme';
+import { Button } from '../../../components/Forms/Button';
+import { InputForm } from '../../../components/Forms/InputForm';
+import theme from '../../../theme';
 
 import { LoginStyles } from './styles';
 
@@ -45,7 +45,7 @@ export function Login() {
         </LoginStyles.LoginHeaderTitle>
 
         <LoginStyles.LoginHeaderSubTitle>
-          Faça login para acessar o app
+          Faça login para acessar a sua conta
         </LoginStyles.LoginHeaderSubTitle>
       </LoginStyles.LoginHeader>
 

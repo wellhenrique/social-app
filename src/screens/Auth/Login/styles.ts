@@ -17,6 +17,8 @@ export const LoginStyles = {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+
+    margin-top: 50px;
   `,
 
   LoginHeaderTitle: styled.Text`
